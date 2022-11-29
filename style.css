@@ -24,3 +24,36 @@ ul{
     border-style: solid;
     border-radius: 50%;
 }
+
+.task-category{
+    color: white;
+    border-radius: 20%;
+    border-width: 0;
+    padding: 5px;
+}
+
+.editorial
+{
+    background-color: blue;
+}
+
+.q1-goals{
+    background-color: purple;
+}
+
+.recruiting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: magenta;
+}
+
+.sales{
+    background-color: greenyellow;
+}
+
