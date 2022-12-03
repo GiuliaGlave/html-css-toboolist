@@ -4,6 +4,28 @@
     box-sizing: border-box;
   }
 
+  body{
+    background-color: #e1dddd;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header{
+    background-color: #ffffff;
+    height: 100px;
+  }
+  h1 .logo{
+    display: inline;
+    vertical-align: middle;
+  }
+
+ .container{
+    width: 70%;
+    margin: 0 auto;
+ }
+  .add-task{
+    border-radius: 25%;
+  }
+
 ul{
     list-style-type: none;
 /*aggiungi il padding giusto più tardi*/
