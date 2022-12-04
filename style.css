@@ -12,10 +12,20 @@
   header{
     background-color: #ffffff;
     height: 100px;
+    line-height: 100px;
+    margin-bottom: 50px;
   }
-  h1 .logo{
+
+  #logo{
+   vertical-align: middle;
+   margin-left: 15px;
+   
+  }
+
+  h1{
     display: inline;
     vertical-align: middle;
+    font-size: 36px;
   }
 
  .container{
@@ -24,11 +34,14 @@
     background-color: #ffffff;
     margin-top: 45px;
     margin-bottom: 20px;
+    border-radius: 1%;
  }
+
  .btn{
-   
     border: 1px;
     font-size: 15px;
+    padding: 20px 5px 10px;
+
   }
 
   .add-task-btn{
@@ -36,20 +49,35 @@
 	border: 1px solid #4794c8;
 	background-color: #47adf1;
     padding: 8px;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10%;
   }
 
   .add-selection-btn{
-    color: #727272;
-    border: 1px solid #727272;
+    color: #bdbbbb;
+    border: 1px solid #bdbbbb;
 	background-color: transparent;
     padding: 8px;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10%;
   }
+/*VEDI COME MODIFICARE LA LINEA*/
+  hr{
+    border: #5f5757;
+    
+
+
+  }
+
+
+summary{
+    margin-top: 20px;
+    font-weight: 700;
+}
 
 ul{
     list-style-type: none;
