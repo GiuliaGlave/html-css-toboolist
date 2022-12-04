@@ -67,10 +67,10 @@
   }
 /*VEDI COME MODIFICARE LA LINEA*/
   hr{
-    border: #5f5757;
-    
-
-
+    background-color: #f6f4f4;;
+    margin-left: -40px;
+    border: 0;
+    height: 1px;
   }
 
 
