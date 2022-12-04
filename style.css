@@ -83,21 +83,37 @@ ul{
     list-style-type: none;
 /*aggiungi il padding giusto più tardi*/
     padding: 0;
+    vertical-align: middle;
 }
 
+li{
+    padding: 10px 0;
 
+}
 .check{
-    color: green;
-    border-color: green;
+    color: #64c0a9;
+    border-color: #64c0a9;
     border-style: solid;
+    border-width: thin;
     border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px 3px;
+    vertical-align: middle;
 }
 
 .cross{
     color: red;
     border-color: red;
     border-style: solid;
+    border-width: thin;
     border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;    
+    font-weight: bold;
+    padding: 1px 3px;
+    vertical-align: middle;
 }
 
 .task-category{
